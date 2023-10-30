@@ -118,8 +118,8 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 ## PROGRAM 
-
-Developed By : R Hemapriya
+```
+Developed By : V A Jithendra
 Reg No : 212221230036
 
 import pandas as pd
@@ -166,7 +166,7 @@ print(predictions)
 # Evaluation of algorithm performance in classifying flowers
 print(confusion_matrix(Y_test,predictions))
 print(classification_report(Y_test,predictions))
-
+```
 ## OUTPUT 
 ### First five rows:
 ![image](https://github.com/jithendra2004/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94226297/d7448273-20c8-4b84-8535-5828e964be0b)
